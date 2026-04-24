@@ -87,8 +87,8 @@ export default function Hero({ setView }: HeroProps) {
 
   const stats = [
     { icon: <FileText size={18} />, value: '7', label: 'Intent Categories' },
-    { icon: <BarChart2 size={18} />, value: '94.2%', label: 'Accuracy' },
-    { icon: <Zap size={18} />, value: '<1s', label: 'Analysis Time' },
+    
+    { icon: <Zap size={18} />, value: '<10s', label: 'Analysis Time' },
   ];
 
   const intents = [
