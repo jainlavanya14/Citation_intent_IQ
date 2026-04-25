@@ -17,11 +17,8 @@ export default function Footer() {
         </div>
 
         <div className="flex items-center gap-4">
-          <a href="#" className="text-gray-600 hover:text-gray-400 transition-colors">
+          <a href="https://github.com/jainlavanya14" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-400 transition-colors">
             <FaGithub size={16} />
-          </a>
-          <a href="#" className="text-gray-600 hover:text-gray-400 transition-colors">
-            <FaXTwitter size={16} />
           </a>
         </div>
       </div>
